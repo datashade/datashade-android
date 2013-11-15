@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.datashade.DataShadeGrid"
+            android:label="@string/title_activity_data_shade_grid" >
+        </activity>
     </application>
+
+</manifest>
+ources>
+        <declare-stylable name="BlockOfShade">
+            <attr
+            
+            
+        </declare-stylable>
+        
+        
+    </resources>
+    
 
 </manifest>
