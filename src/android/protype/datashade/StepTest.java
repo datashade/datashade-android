@@ -4,6 +4,6 @@ class StepTest extends Step
 {
 	public StepTest( String Description )
 	{
-		super("");
+		super("Test Step");
 	}
 }

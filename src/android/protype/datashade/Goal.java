@@ -4,6 +4,29 @@ import java.util.List;
 
 class Goal
 {
-	public List<Step> ListOfSteps;
-	public List<String> LevelsOfIndependence;
+	// Constructors
+	public Goal() 
+	{	
+	}
+	
+	// Getters
+	public List<Step> getListOfSteps() {
+		return ListOfSteps;
+	}
+	public List<String> getLevelsOfIndependence() {
+		return LevelsOfIndependence;
+	}
+	
+	// Setters
+	public void AddStep( Step StepToAdd )
+	{
+		ListOfSteps.add(StepToAdd);
+	}
+	public void AddLevelOfIndependence( String LevelToAdd )
+	{
+		LevelsOfIndependence.add( LevelToAdd );
+	}
+	
+	private List<Step> ListOfSteps;
+	private List<String> LevelsOfIndependence;
 }

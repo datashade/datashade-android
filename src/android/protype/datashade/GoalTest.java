@@ -24,12 +24,17 @@ class GoalTest extends Goal
 				);
 		for(String x : temp )
 		{
-			ListOfSteps.add( new Step( x ) );
+			this.AddStep(new Step(x));
 		}
 		
-		this.LevelsOfIndependence.add("Hand over Hand");
-		this.LevelsOfIndependence.add("Model");
-		this.LevelsOfIndependence.add("Verbal");
-		this.LevelsOfIndependence.add("Independent");
+		List<String> LevelsOfIndTemp = Arrays.asList(
+				"Hand over Hand",
+				"Model",
+				"Verbal",
+				"Independent");
+		for(String x : LevelsOfIndTemp)
+		{
+			this.AddLevelOfIndependence(x);
+		}
 	}
 }
