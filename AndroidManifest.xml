@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.datashade.MainActivity"
+            android:name="android.protype.datashade.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.datashade.DisplayMessageActivity"
+            android:name="android.protype.datashade.DisplayMessageActivity"
             android:label="@string/title_activity_display_message"
             android:parentActivityName="com.example.datashade" >
             <meta-data
@@ -31,25 +31,25 @@
                 android:value="com.example.datashade" />
         </activity>
         <activity
-            android:name="com.example.datashade.DataShadeGrid"
+            android:name="android.protype.datashade.DataShadeGrid"
             android:label="@string/title_activity_data_shade_grid"
-            android:parentActivityName="com.example.datashade.GoalList" >
+            android:parentActivityName="android.protype.datashade.GoalList" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.datashade" />
         </activity>
         <activity
-            android:name="com.example.datashade.GoalList"
+            android:name="android.protype.datashade.GoalList"
             android:label="@string/title_activity_goal_list"
-            android:parentActivityName="com.example.datashade.StudentList" >
+            android:parentActivityName="android.protype.datashade.StudentList" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.datashade.MainActivity" />
         </activity>
         <activity
-            android:name="com.example.datashade.StudentList"
+            android:name="android.protype.datashade.StudentList"
             android:label="@string/title_activity_student_list"
-            android:parentActivityName="com.example.datashade.MainActivity" >
+            android:parentActivityName="android.protype.datashade.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.datashade.MainActivity" />

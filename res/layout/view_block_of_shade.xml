@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
  
-    <com.example.datashade.BlockOfShade
+    <android.protype.datashade.BlockOfShade
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:ds="http://schemas.android.com/apk/res/com.example.datashade" 
         android:layout_width="match_parent"
@@ -35,4 +35,4 @@
 		android:background="#FFFFFF"
         android:onClick="generateEntryP" />
       </LinearLayout>
-</com.example.datashade.BlockOfShade>
+</android.protype.datashade.BlockOfShade>
