@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataShade</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="student_list">Welcome</string>
+    <string name="student">Welcome</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_data_shade_grid">Data</string>
+    <string name="pbutton_text">+</string>
+    <string name="mbutton_text">-</string>
+    <string name="title_activity_goal_list">GoalList</string>
+    <string name="title_activity_student_list">StudentList</string>
+
+</resources>

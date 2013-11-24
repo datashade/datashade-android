@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GoalList"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="vertical"
+    android:rowCount="4"
+    android:layout_gravity="center"
+    tools:context=".GoalList" >
+
+    <Button
+        android:id="@+id/button1"
+        android:width="200dp"
+        android:text="Speech Sounds"
+        android:onClick="Skill"
+        />
+    
+    <Button
+        android:id="@+id/button1"
+        android:width="200dp"
+        android:text="Naming Object"
+        android:onClick="Skill"
+        />
+    
+    <Button
+        android:id="@+id/button1"
+        android:width="200dp"
+        android:text="Sit to stand"
+        android:onClick="Skill"
+        />
+    
+    <Button
+        android:id="@+id/button1"
+        android:width="200dp"
+        android:text="Walking"
+        android:onClick="Skill"
+        />
+</GridLayout>
